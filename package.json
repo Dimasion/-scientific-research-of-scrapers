@@ -1,0 +1,26 @@
+{
+  "name": "magistr",
+  "version": "1.0.0",
+  "description": "Magister work. Scientific research of scrappers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dimasion/-scientific-research-of-scrapers.git"
+  },
+  "author": "Dmytro Burlaka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dimasion/-scientific-research-of-scrapers/issues"
+  },
+  "homepage": "https://github.com/Dimasion/-scientific-research-of-scrapers#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "csv-writer": "^1.5.0",
+    "esm": "^3.2.25",
+    "puppeteer": "^2.0.0"
+  }
+}
