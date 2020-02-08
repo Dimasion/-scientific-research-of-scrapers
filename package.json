@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node -r esm index.js",
+    "start-pup": "node -r esm index.js",
     "start-own": "node -r esm own/index.js",
-    "start-xray": "node -r esm own/xray.js",
     "start-crawler": "node -r esm own/crawler.js"
   },
   "repository": {
@@ -21,12 +20,9 @@
   },
   "homepage": "https://github.com/Dimasion/-scientific-research-of-scrapers#readme",
   "dependencies": {
-    "axios": "^0.19.2",
-    "bluebird": "^3.7.2",
     "cheerio": "^1.0.0-rc.3",
     "crawler": "^1.2.1",
     "csv-writer": "^1.5.0",
-    "easy-promise-queue": "^0.5.7",
     "esm": "^3.2.25",
     "node-fetch": "^2.6.0",
     "puppeteer": "^2.0.0"
