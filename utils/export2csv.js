@@ -1,23 +1,36 @@
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const path = require('path')
 
-async function export2csv (data, filename = 'out', rootPath = './csv') {
+async function export2csv (data, filename = 'out', isAdditional, rootPath = './csv') {
+
+  let header = [
+    {id: 'itemLink', title: 'Посилання'},
+    {id: 'markName', title: 'Марка авто'},
+    {id: 'modelName', title: 'Модель авто'},
+    {id: 'title', title: 'Титул'},
+    {id: 'year', title: 'Рік'},
+    {id: 'uah', title: 'Ціна'},
+    {id: 'category', title: 'Тип авто'},
+    {id: 'phone', title: 'Контактний телефон'},
+    {id: 'color', title: 'Колір'},
+    {id: 'description', title: 'Опис'},
+  ]
+
+  let additional = [
+    {id: 'race', title: 'Пробіг'},
+    {id: 'location', title: 'Локація'},
+    {id: 'fuelName', title: 'Двигун'},
+    {id: 'gearboxName', title: 'Коробка передач'},
+  ]
+
+  if (isAdditional) {
+    header = header.concat(additional)
+  }
+
+
   const csvWriter = createCsvWriter({
     path: path.join(rootPath, `${filename}.csv`),
-    header: [
-      {id: 'markName', title: 'Марка авто'},
-      {id: 'modelName', title: 'Модель авто'},
-      {id: 'uah', title: 'Ціна'},
-      {id: 'year', title: 'Рік'},
-      {id: 'race', title: 'Пробіг'},
-      {id: 'location', title: 'Локація'},
-      {id: 'fuelName', title: 'Двигун'},
-      {id: 'category', title: 'Тип авто'},
-      {id: 'gearboxName', title: 'Коробка передач'},
-      {id: 'phone', title: 'Контактний телефон'},
-      {id: 'title', title: 'Титул'},
-      {id: 'description', title: 'Опис'},
-    ]
+    header
   })
 
   return new Promise(resolve => {
