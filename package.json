@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-pup": "node -r esm index.js",
-    "start-own": "node -r esm own/index.js",
-    "start-crawler": "node -r esm own/crawler.js"
+    "start-own": "node -r esm scrappers/own.js",
+    "start-crawler": "node -r esm scrappers/crawler.js"
   },
   "repository": {
     "type": "git",
