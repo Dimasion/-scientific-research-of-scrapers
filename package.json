@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-pup": "node -r esm index.js",
     "start-own": "node -r esm scrappers/own.js",
+    "start-own-sync": "node -r esm scrappers/own-sync.js",
     "start-crawler": "node -r esm scrappers/crawler.js",
     "diagram-own": "npx arkit -f scrappers/own.js -o diagram/own.svg",
     "diagram-crawler": "npx arkit -f scrappers/crawler.js -o diagram/crawler.svg",
