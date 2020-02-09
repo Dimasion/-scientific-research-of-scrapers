@@ -1,11 +1,11 @@
-import { scrapper } from './scappers/puppeteer'
+import { scrapper } from './scrappers/puppeteer'
 import { export2csv } from './utils'
 
 (async () => {
     const start = new Date()
     const data = await scrapper({
-        pages: 2,
-        size: 20
+        pages: 1,
+        size: 10
     })
 
     await export2csv(data, 'bmw', true)

@@ -9,7 +9,7 @@ import { URLs } from '../config'
 
 async function scrapper (options = {
     pages: 10,
-    size: 10
+    size: 100
 }) {
     let scrapperData = []
 

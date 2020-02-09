@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="303px" preserveAspectRatio="none" style="width:572px;height:303px;" version="1.1" viewBox="0 0 572 303" width="572px" zoomAndPan="magnify"><defs/><g><!--cluster Dependencies--><path d="M27.5,208 L121.5,208 A4.5,4.5 0 0 1 124.5,211 L131.5,228.4844 L455.5,228.4844 A3,3 0 0 1 458.5,231.4844 L458.5,288 A3,3 0 0 1 455.5,291 L27.5,291 A3,3 0 0 1 24.5,288 L24.5,211 A3,3 0 0 1 27.5,208 " fill="#FFFFFF" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="24.5" x2="131.5" y1="228.4844" y2="228.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="94" x="28.5" y="222.0059">Dependencies</text><!--entity cheerio--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #383838; stroke-width: 1.0;" width="63" x="41" y="241"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="36" y="246"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="36" y="265.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="51" y="263.0059">cheerio</text><!--entity csv-writer--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #383838; stroke-width: 1.0;" width="76" x="269.5" y="241"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="264.5" y="246"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="264.5" y="265.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="56" x="279.5" y="263.0059">csv-writer</text><!--entity node-fetch--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #383838; stroke-width: 1.0;" width="83" x="359" y="241"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="354" y="246"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="354" y="265.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="369" y="263.0059">node-fetch</text><!--entity puppeteer/puppeteer--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #383838; stroke-width: 1.0;" width="139" x="117" y="241"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="112" y="246"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="112" y="265.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="119" x="127" y="263.0059">puppeteer/puppeteer</text><ellipse cx="422.5919" cy="21.242" fill="#F8F8F8" rx="22.0919" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="409.0919" y="24.9842">own</text><ellipse cx="34.4558" cy="179.242" fill="#F8F8F8" rx="28.4558" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="36" x="16.4558" y="182.9842">config</text><ellipse cx="175.5771" cy="126.0154" fill="#F8F8F8" rx="58.0771" ry="14.0154" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="83" x="134.0771" y="129.7576">createBrowser</text><ellipse cx="83.6777" cy="126.242" fill="#F8F8F8" rx="20.6777" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="25" x="71.1777" y="129.9842">data</text><ellipse cx="294.5477" cy="126.242" fill="#F8F8F8" rx="47.5477" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="263.0477" y="129.9842">export2csv</text><ellipse cx="407.4975" cy="126.242" fill="#F8F8F8" rx="52.4975" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="372.4975" y="129.9842">replaceDots</text><ellipse cx="501.4558" cy="126.242" fill="#F8F8F8" rx="28.4558" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="36" x="483.4558" y="129.9842">str2int</text><ellipse cx="294.4706" cy="73.242" fill="#F8F8F8" rx="19.9706" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="24" x="282.4706" y="76.9842">utils</text><!--link createBrowser to puppeteer/puppeteer--><path d="M176.636,140.423 C178.54,162.925 182.392,208.4455 184.678,235.4664 " fill="none" id="createBrowser-puppeteer/puppeteer" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="185.113,240.6116,188.3398,231.3063,184.6914,235.6294,180.3683,231.981,185.113,240.6116" style="stroke: #000000; stroke-width: 0.5;"/><!--link data to cheerio--><path d="M82.4849,138.997 C80.63,160.918 76.6694,207.7258 74.3323,235.3461 " fill="none" id="data-cheerio" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="73.8876,240.6013,78.6324,231.9707,74.3093,235.6191,70.6609,231.296,73.8876,240.6013" style="stroke: #000000; stroke-width: 0.5;"/><!--link data to config--><path d="M73.1084,137.816 C66.0588,145.153 56.6453,154.951 48.8784,163.035 " fill="none" id="data-config" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="45.2154,166.847,54.3353,163.1285,48.6796,163.2415,48.5666,157.5858,45.2154,166.847" style="stroke: #000000; stroke-width: 0.5;"/><!--link data to utils--><path d="M100.9839,118.927 C106.332,116.492 112.079,113.834 117.5,112 C170.586,94.042 235.293,83.073 269.996,77.8 " fill="none" id="data-utils" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="275.302,77.002,265.8076,74.3836,270.3575,77.7449,266.9962,82.2948,275.302,77.002" style="stroke: #000000; stroke-width: 0.5;"/><!--link utils to data--><path d="M274.781,76.006 C239.588,80.297 164.598,91.67 104.5,112 C103.2495,112.423 101.9816,112.89 100.7179,113.388 " fill="none" id="utils-data" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="95.9103,115.435,105.758,115.5891,100.5106,113.476,102.6236,108.2286,95.9103,115.435" style="stroke: #000000; stroke-width: 0.5;"/><!--link export2csv to csv-writer--><path d="M295.7,138.997 C297.892,160.918 302.573,207.7258 305.335,235.3461 " fill="none" id="export2csv-csv-writer" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="305.86,240.6013,308.9443,231.2479,305.3623,235.6261,300.9841,232.0441,305.86,240.6013" style="stroke: #000000; stroke-width: 0.5;"/><!--link <b>own</b> to node-fetch--><path d="M439.889,29.036 C477.314,45.325 560.258,88.221 536.5,140 C515.989,184.702 469.036,218.7733 436.065,238.3202 " fill="none" id="&lt;b&gt;own&lt;/b&gt;-node-fetch" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="431.713,240.8649,441.5016,239.7768,436.0297,238.3419,437.4647,232.87,431.713,240.8649" style="stroke: #000000; stroke-width: 1.0;"/><!--link <b>own</b> to utils--><path d="M404.702,28.952 C381.389,38.059 340.564,54.006 315.684,63.725 " fill="none" id="&lt;b&gt;own&lt;/b&gt;-utils" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="310.931,65.582,320.7696,66.0317,315.588,63.7621,317.8577,58.5805,310.931,65.582" style="stroke: #000000; stroke-width: 1.0;"/><!--link utils to createBrowser--><path d="M278.451,80.878 C260.209,88.696 229.985,101.649 206.991,111.504 " fill="none" id="utils-createBrowser" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="202.201,113.557,212.049,113.6902,206.7971,111.5883,208.899,106.3364,202.201,113.557" style="stroke: #000000; stroke-width: 0.5;"/><!--link utils to export2csv--><path d="M294.5,86.086 C294.5,92.471 294.5,100.424 294.5,107.473 " fill="none" id="utils-export2csv" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="294.5,112.646,298.5,103.646,294.5,107.646,290.5,103.646,294.5,112.646" style="stroke: #000000; stroke-width: 0.5;"/><!--link utils to replaceDots--><path d="M310.212,81.091 C327.915,89.081 357.058,102.234 378.84,112.065 " fill="none" id="utils-replaceDots" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="383.648,114.235,377.0889,106.888,379.0903,112.179,373.7993,114.1804,383.648,114.235" style="stroke: #000000; stroke-width: 0.5;"/><!--link utils to str2int--><path d="M313.551,77.317 C345.509,83.08 411.791,95.88 466.5,112 C469.601,112.914 472.822,113.965 475.999,115.065 " fill="none" id="utils-str2int" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="480.931,116.822,473.7943,110.0347,476.2207,115.1448,471.1107,117.5712,480.931,116.822" style="stroke: #000000; stroke-width: 0.5;"/><script type="text/plantuml"><![CDATA[
+@startuml
+
+scale max 1920 width
+top to bottom direction
+
+skinparam nodesep 13
+skinparam ranksep 26
+skinparam monochrome true
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+skinparam defaultFontSize 12
+skinparam roundCorner 6
+skinparam dpi 150
+skinparam arrowColor black
+skinparam arrowThickness 0.5
+skinparam packageTitleAlignment left
+
+skinparam usecase {
+  borderThickness 0.5
+}
+
+skinparam rectangle {
+  borderThickness 0.5
+}
+
+skinparam component {
+  borderThickness 1
+}
+
+
+(<b>own</b>)
+(config)
+(createBrowser)
+(data)
+(export2csv)
+(replaceDots)
+(str2int)
+(utils)
+
+package "Dependencies" {
+  [cheerio]
+  [csv-writer]
+  [node-fetch]
+  [puppeteer/puppeteer]
+}
+
+(createBrowser) ---> [puppeteer/puppeteer]
+(data) ---> [cheerio]
+(data) --> (config)
+(data) --> (utils)
+(export2csv) ---> [csv-writer]
+(<b>own</b>) ---[thickness=1]> [node-fetch]
+(<b>own</b>) --[thickness=1]> (utils)
+(utils) --> (createBrowser)
+(utils) --> (data)
+(utils) --> (export2csv)
+(utils) --> (replaceDots)
+(utils) --> (str2int)
+
+@enduml
+
+
+' View and edit on https://arkit.pro
+]]></script></g></svg>

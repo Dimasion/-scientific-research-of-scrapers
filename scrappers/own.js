@@ -7,7 +7,7 @@ import {
 
 const baseURL = 'https://auto.ria.com/car'
 
-async function scrape (pages = 100, size = 100, brand = 'bmw') {
+async function scrape (pages = 1, size = 10, brand = 'bmw') {
     const start = new Date()
 
     const listTextPromises = []

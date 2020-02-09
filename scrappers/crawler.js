@@ -6,14 +6,13 @@ import {
     getListLinks
 } from '../utils'
 
-async function scrape (pages = 1, size = 1, brand = 'bmw') {
+async function scrape (pages = 10, size = 100, brand = 'bmw') {
     const start = new Date()
     const urls = []
     const data = []
     const baseURL = 'https://auto.ria.com/car'
     const productCrawler = new Crawler({
-        maxConnections : 10,
-        jQuery: false,
+        maxConnections: 300,
         // This will be called for each crawled page
         callback : function (error, res, done) {
             if(error){
@@ -30,8 +29,7 @@ async function scrape (pages = 1, size = 1, brand = 'bmw') {
         }
     })
     const listCrawler = new Crawler({
-        maxConnections : 10,
-        jQuery: false,
+        maxConnections : 300,
         headers: {
             cookie: `ipp=${size}`
         },
@@ -65,4 +63,4 @@ async function scrape (pages = 1, size = 1, brand = 'bmw') {
 }
 
 
-scrape(10, 100)
+scrape(1, 10)
